@@ -1,0 +1,12 @@
+name: First by myself
+on: workflow_dispatch
+jobs: 
+ first:
+  runs-on: ubuntu-latest
+  steps: 
+   - name: Print test1
+     run: echo 'test1'
+   - name: Print test2
+     run: |
+      echo 'test2'
+      echo 'test new'
